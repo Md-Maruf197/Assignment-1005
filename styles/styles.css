@@ -1,5 +1,8 @@
 .nav-title{
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
     text-align: center;
     font-size: 32px;
     font-weight: 400;
@@ -8,11 +11,14 @@
     justify-content: center;
     color: #FFF;
     align-items: center;
+    
 }
 .nav-main-title{
+    display: flex;
     justify-content: center;
-    text-align: center;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
@@ -22,6 +28,7 @@
     
 }
 header{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/BannerImage.png');
     background-image: url('../resources/Banner\ Image.png');
     color: #070211, #07021100;
     align-items: center;
@@ -35,8 +42,8 @@ header{
     text-align: center;
     flex-shrink: 0;
     border-radius: 16px;
-
-    box-sizing: border-box
+     box-sizing: border-box
+    
     
 }
 
